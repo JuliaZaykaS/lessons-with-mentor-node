@@ -1,1 +1,1 @@
-const calc = require('./calc.js')
+const calc = require('./calc')
