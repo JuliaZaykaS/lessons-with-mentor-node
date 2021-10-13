@@ -1,1 +1,0 @@
-const calc = require('./calc.js')
