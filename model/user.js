@@ -19,7 +19,13 @@ const UserSchema = Schema({
     token: {
         type: String,
         default:null,
-    }
+    },
+    roles: [{
+
+        type: String,
+        ref: 'role'
+    }]
+
 }, { versionKey: false, timestamps: true })
 
 module.exports = model('user', UserSchema )
